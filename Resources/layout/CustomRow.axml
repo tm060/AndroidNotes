@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/button_material_dark"
+    android:padding="1dip"
+    android:gravity="bottom">
+    <TextView
+        android:id="@+id/sqlite_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/lbltitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="4dip"
+        android:textSize="18dip"
+        android:text="Your Heading will appear here"
+        android:textColor="@android:color/holo_red_light"
+        android:gravity="center_horizontal" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:src="@drawable/abc_btn_radio_to_on_mtrl_015"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@drawable/abc_btn_radio_to_on_mtrl_015"
+        android:id="@+id/textView1" />
+</RelativeLayout>
